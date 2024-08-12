@@ -1,0 +1,20 @@
+Site Header
+Primary Navigation
+Go to Home page
+Learn about us
+Get in touch
+Sidebar
+External resource 1
+External resource 2
+Footer Information
+An introduction to the topic
+A descriptive image related to content 1
+A descriptive image related to content 2
+Role: menuitem, Label: Go to Home page
+Role: menuitem, Label: Learn about us
+Role: menuitem, Label: Get in touch
+Role: link, Label: External resource 1
+Role: link, Label: External resource 2
+Role: contentinfo
+Labelled by: Introduction Section
+Labelled by: Content Section

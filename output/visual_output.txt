@@ -1,0 +1,13 @@
+Detailed Example HTML
+Main Title of the Page
+Home
+About
+Contact
+Introduction Section
+This is an introductory paragraph that explains the purpose of the page.
+Content Section
+This section provides detailed information with multiple images:
+This is a sidebar with additional links.
+Resource 1
+Resource 2
+Footer details including contact info and disclaimers.
