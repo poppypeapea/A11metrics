@@ -10,59 +10,58 @@
 
 <body>
     <header aria-label="Site Header">
-        <h1 aria-label="Main Title of the Page">
-        </h1>
+        <h1>Main Title of the Page</h1>
     </header>
     <nav aria-label="Primary Navigation">
         <ul>
             <li aria-label="Go to Home page" role="menuitem">
-                <a aria-label="Home" href="#">
-                    Home
-                </a>
+                <a aria-label="Home" href="#">Home</a>
             </li>
             <li aria-label="Learn about us" role="menuitem">
-                <a aria-label="About" href="#">
-                </a>
+                <a aria-label="About" href="#">About</a>
             </li>
             <li aria-label="Get in touch" role="menuitem">
-                <a aria-label="Contact" href="#">
-                </a>
+                <a aria-label="Contact" href="#">Contact</a>
             </li>
         </ul>
     </nav>
     <main>
         <section aria-labelledby="intro-title">
-            <h2 aria-label="Introduction Section" id="intro-title">
+            <h2 aria-labelledby="intro-title" id="intro-title">
+                Introduction Section
             </h2>
-            <p aria-label="This is an introductory paragraph that explains the purpose of the page.">1</p>
-            <img alt="An introduction to the topic" src="intro-image.jpg" />
+            <p>This is an introductory paragraph that explains the purpose of the page.</p>
+            <img alt="An introduction to the topic" aria-label="An introduction to the topic" />
         </section>
         <section aria-labelledby="content-title">
-            <h2 aria-label="Content Section" id="content-title">
-            </h2>
-            <p aria-label="This section provides detailed information with multiple images:">
-            </p>
-            <img alt="A descriptive image related to content 1" src="content-image1.jpg" />
-            <img alt="A descriptive image related to content 2" src="content-image2.jpg" />
+            <h2 aria-label="Content Section" id="content-title">Content Section</h2>
+            <p aria-label="This section provides detailed information with multiple images:"></p>
+            <img alt="A descriptive image related to content 1" aria-labelledby="content1-description" role="img" />
+            <img alt="A descriptive image related to content 2" />
         </section>
         <aside aria-label="Sidebar">
             <p aria-label="This is a sidebar with additional links."></p>
             <ul>
                 <li aria-label="External resource 1" role="link">
-                    <a aria-label="Resource 1" href="#">
-                    </a>
+                    <a aria-label="Resource 1" href="#">Resource 1</a>
                 </li>
                 <li aria-label="External resource 2" role="link">
                     <a aria-label="Resource 2" href="#">
+                        Resource 2
                     </a>
                 </li>
             </ul>
         </aside>
+        <button aria-label="Open Menu">
+            <svg focusable="true" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <title>hamburger icon</title>
+                <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2"></path>
+            </svg>
+        </button>
     </main>
     <footer role="contentinfo">
-        <p aria-label="Footer details including contact info and disclaimers.">
-            Footer details including contact info and disclaimers.
-        </p>
+        <p aria-label="Footer information">Footer details including contact info and disclaimers.</p>
     </footer>
 </body>
 
