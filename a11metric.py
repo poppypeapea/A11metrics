@@ -149,8 +149,8 @@ def visualize_embeddings(embeddings, title):
     plt.show()
 
 # Read HTML file content
-normal_file_path = os.path.join(os.path.dirname(__file__), 'normal.html')
-impaired_file_path = os.path.join(os.path.dirname(__file__), 'impaired.html')
+normal_file_path = os.path.join(os.path.dirname(__file__), 'output/visual_output.html')
+impaired_file_path = os.path.join(os.path.dirname(__file__), 'output/impaired_output.html')
 
 with open(normal_file_path, 'r', encoding='utf-8') as file:
     normal_html_doc = file.read()
